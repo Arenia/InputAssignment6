@@ -1,0 +1,14 @@
+/* make all buttons 20 by 20 pixels with white text and green background and a 10 pixel margin */
+button { background: blue; color: white; margin: 5px; }
+
+/* make the button with ID "button_add_clear" red */
+#button_add_clear { background: red; }
+
+/*make clear button red*/
+#button_clear { background: red; }
+
+#button_dial { background: green; }
+
+#button_add { background: green; }
+
+.tab { background: orange; }

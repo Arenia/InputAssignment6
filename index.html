@@ -1,27 +1,61 @@
 <html>
 	<head>
-		<title>Your Page Title</title>
+		<title>Basic Phone App</title>
 		<link rel="stylesheet" href="phone.css">
 		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmN9w" crossorigin="anonymous">
 	</head>
 	<body>
 	<div id="tab_bar">
-		<button id="dial_butt">Dialer</button>
-		<button id="contact_butt">Contacts</button>
-		<button id="add_butt">Add Contact</button>
+		<button class="tab" id="dial_butt">Dialer</button>
+		<button class="tab" id="contact_butt">Contacts</button>
+		<button class="tab" id="add_butt">Add Contact</button>
 	</div>
 	<div id="content">
 		<div id="dial_page">
-		Blank Dial Page
+			Dialer
+			<form class="dial_fill">
+				<input id="dial_line">
+			</form>
+			<button class="dial_button" id="button_1">1</button>
+			<button class="dial_button" id="button_2">2</button>
+			<button class="dial_button" id="button_3">3</button>
+			<br>
+			<button class="dial_button" id="button_4">4</button>
+			<button class="dial_button" id="button_5">5</button>
+			<button class="dial_button" id="button_6">6</button>
+			<br>
+			<button class="dial_button" id="button_7">7</button>
+			<button class="dial_button" id="button_8">8</button>
+			<button class="dial_button" id="button_9">9</button>
+			<br>
+			<button class="dial_button" id="button_star">*</button>
+			<button class="dial_button" id="button_0">0</button>
+			<button class="dial_button" id="button_pound">#</button>
+			<br>
+			<button class="dial_button" id="button_dial">Dial</button>
+			<button class="dial_button" id="button_clear">Clear</button>
 		</div>
 		<div id="contacts_page">
-		Blanke Contacts Page
+			Contacts
 		</div>
 		<div id="add_page">
-		Blank Add Page
+			Add Contacts
+			<br>
+			</form class="add_object">
+				<label for="name_space">Name</label>
+				<input id="name_space" placeholder="Jane Smith">
+				<br><br>
+				<label for="number_space">Phone #</label>
+				<input id="number_space" placeholder="720-555-5555">
+				<br><br>
+				<label for="email_space">E-mail</label>
+				<input id="email_space" placeholder="jane.smith@gmail.com">
+			</form>
+			<br>
+			<button class="add_object" id="button_add">Add</button>
+			<button class="add_object" id="button_add_clear">Clear</button>
 		</div>
 	</div>
-	Your page content.
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="phone.js"></script>
 	</body>
