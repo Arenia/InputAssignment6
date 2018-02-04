@@ -12,3 +12,7 @@ button { background: blue; color: white; margin: 5px; }
 #button_add { background: green; }
 
 .tab { background: orange; }
+
+#gest_out { background: white; border-style: solid; border-width: 4x; border-color: black; width: 200px; height: 25px;}
+
+#gest_area { background: #008000; width: 300px; height: 300px; border-style: solid; border-width: 3px; border-color: gray; }
