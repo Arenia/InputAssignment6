@@ -102,7 +102,6 @@ $("#gest_area").mouseup(function(event) {
 	splitX = upX - downX;
 	splitY = downY - upY;
 	angle = Math.abs(splitY+1)/Math.abs(splitX+1);
-	alert(angle);
 	if (splitX > 0 && angle < 1) {
 		$("#gest_out").text("Swipe Right");
 	}
