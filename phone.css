@@ -1,18 +1,15 @@
-/* make all buttons 20 by 20 pixels with white text and green background and a 10 pixel margin */
-button { background: blue; color: white; margin: 5px; }
+button { background: blue; color: white; margin: 5px; width: 10%; height:10%; }
+
+#dial_line { fone-size:large; text-align:left; width: 35%; }
 
 /* make the button with ID "button_add_clear" red */
 #button_add_clear { background: red; }
 
 /*make clear button red*/
-#button_clear { background: red; }
+#button_clear { background: red; color:white;}
 
 #button_dial { background: green; }
 
 #button_add { background: green; }
 
-.tab { background: orange; }
-
-#gest_out { background: white; border-style: solid; border-width: 4x; border-color: black; width: 200px; height: 25px;}
-
-#gest_area { background: #008000; width: 300px; height: 300px; border-style: solid; border-width: 3px; border-color: gray; }
+.tab { background: orange; color:blue; }

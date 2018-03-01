@@ -1,0 +1,21 @@
+button { background: black; color: white; margin: 5px; width: 20%; height:20%; font-size: 100% }
+
+.dial_button { font-size: 120%; }
+
+#dial_line { fone-size:200%; text-align:left; width: 65%; height: 20%}
+
+#button_add_clear { background: red; }
+
+#button_clear { background: maroon; color:white;}
+
+#button_dial { background: green; }
+
+#button_add { background: green; }
+
+.tab { background: orange; color:blue; }
+
+body {
+	color: white;
+	background-color: black;
+	font-size:250%;
+}
